@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background: linear-gradient(-45deg, #db9f8d, #55c912, #23a6d5, #e00202);
+  background: linear-gradient(-45deg, #020202, #3a637e, #25af31, #f3cf05);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -23,9 +23,8 @@ body {
 }
 
 h1 {
-  color: rgb(240, 155, 29);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  color: rgb(196, 104, 104);
+  font-family: "Trebuchet MS";
   font-size: 30px;
 }
 
@@ -34,4 +33,35 @@ footer {
     "Lucida Sans", Arial, sans-serif;
   font-size: 30px;
   color: darkblue;
+}
+
+.btn {
+  background: #c2fffa;
+  background-image: -webkit-linear-gradient(top, #c2fffa, #080e12);
+  background-image: -moz-linear-gradient(top, #c2fffa, #080e12);
+  background-image: -ms-linear-gradient(top, #c2fffa, #080e12);
+  background-image: -o-linear-gradient(top, #c2fffa, #080e12);
+  background-image: linear-gradient(to bottom, #c2fffa, #080e12);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 25px;
+  border: solid #000508 1px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #e0eb46;
+  background-image: -webkit-linear-gradient(top, #e0eb46, #101f29);
+  background-image: -moz-linear-gradient(top, #e0eb46, #101f29);
+  background-image: -ms-linear-gradient(top, #e0eb46, #101f29);
+  background-image: -o-linear-gradient(top, #e0eb46, #101f29);
+  background-image: linear-gradient(to bottom, #e0eb46, #101f29);
+  text-decoration: none;
 }

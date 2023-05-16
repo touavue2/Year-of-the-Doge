@@ -29,7 +29,7 @@ h1 {
   font-size: 30px;
 }
 
-footer {
+h2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 30px;
@@ -43,6 +43,7 @@ footer {
   height: 200px;
   float: left;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 /* Child Text Container */
